@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="349.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+	<children>
+		<ImageView fx:id="imgBruin" fitHeight="188.0" fitWidth="300.0" layoutX="149.0" layoutY="14.0"  pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="resources/bruin-bear.png" />
+			</image>
+		</ImageView>
+		<Label layoutX="108.0" layoutY="219.0" text="JavaFX Rectangle Project">
+			<font>
+				<Font size="25.0" />
+			</font>
+		</Label>
+      <Label layoutX="196.0" layoutY="255.0" text="by: Ryan Vreeke" />
+	</children>
+</AnchorPane>
